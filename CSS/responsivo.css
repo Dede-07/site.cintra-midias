@@ -17,9 +17,16 @@
         padding-top: 30px;
     }
 
+    #h03 h1 {
+        padding-top: 70px;
+    }
+
+    #h04 h1 {
+        padding-top: 70px;
+    }
 
     #servicos {
-        padding-top: 60px;
+        padding-top: 300px;
     }
 
     .bot {
