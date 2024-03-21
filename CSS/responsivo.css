@@ -14,7 +14,16 @@
     }
 
     .header {
-        padding-top: 50px;
+        padding-top: 30px;
+    }
+
+
+    #servicos {
+        padding-top: 60px;
+    }
+
+    .bot {
+        padding-top: 70px;
     }
 
     .headline {
@@ -27,10 +36,20 @@
         text-align: center;
     }
 
-    .img-headline {
-        flex: 100%;
-        margin: 5%;
-        text-align: center;
+    #img01 {
+        display: none;
+    }
+
+    #img02 {
+        display: none;
+    }
+
+    #img03 {
+        display: none;
+    }
+
+    #img04 {
+        display: none;
     }
 
     .card {
