@@ -328,16 +328,21 @@ button:hover {
     background: #ffffff;
 }
 
+.ctct {
+    display: flex;
+    justify-content: center;
+}
+
 .content {
     height: 450px;
     width: 550px;
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
-    top: 830%;
-    left: 50%;
+    top: 797%;
+    /*left: 50%;*/
     border: 3px solid #032c8c;
-    transform: translate(-50%, -50%);
+    /*transform: translate(-50%, -50%);*/
 }
 
 .content .slide img {
@@ -345,12 +350,18 @@ button:hover {
     width: 100%;
 }
 
+.insd {
+    display: flex;
+    justify-content: center;
+}
+
 .navigation {
     position: absolute;
     bottom: 120px;
     top: 865%;
-    left: 46.4%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bar {
