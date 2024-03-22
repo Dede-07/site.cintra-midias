@@ -338,8 +338,8 @@ button:hover {
     width: 550px;
     border-radius: 20px;
     overflow: hidden;
-    position: absolute;
-    top: 797%;
+    /*position: absolute;
+    top: 797%;*/
     /*left: 50%;*/
     border: 3px solid #032c8c;
     /*transform: translate(-50%, -50%);*/
@@ -356,9 +356,9 @@ button:hover {
 }
 
 .navigation {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 120px;
-    top: 865%;
+    /*top: 865%;*/
     display: flex;
     justify-content: center;
     align-items: center;
