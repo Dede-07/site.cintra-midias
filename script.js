@@ -8,4 +8,4 @@ setInterval(function () {
         contador = 1;
     }
 
-}, 3000)
+}, 4000)
