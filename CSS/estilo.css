@@ -216,6 +216,8 @@ section h2 {
 
 .card {
     display: inline-block;
+    float:left;
+    height:auto;
     width: 31.1%;
     padding: 20px;
     margin: 1%;
