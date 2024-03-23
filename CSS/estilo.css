@@ -28,7 +28,6 @@ body {
     height: 90px;
     margin-left: 10%;
     flex: 20%;
-    /* border: 1px solid red; */
     text-align: left;
     background-color: #000000;
     color: #ffffff;
@@ -44,7 +43,6 @@ body {
 
 .menu {
     flex: 70%;
-    /* border: 1px solid green; */
     text-align: right;
     padding: 20px;
     background: #000000;
@@ -90,7 +88,6 @@ body {
 .headline {
     flex: 40%;
     margin-left: 10%;
-    /* border: 1px solid black */
 }
 
 .head2 {
@@ -106,7 +103,6 @@ body {
 .headl2 {
     flex: 40%;
     margin-left: 10%;
-    /* border: 1px solid black */
 }
 
 .headl2 p {
@@ -142,7 +138,6 @@ body {
     margin-top: 12.5px;
     margin-right: 10%;
     flex: 40%;
-    /* border: 1px solid deeppink; */
     text-align: center;
 }
 
@@ -193,7 +188,6 @@ body {
 section {
     display: inline-block;
     margin-top: 80px;
-    /* border: 1px solid black; */
     margin: 5%;
     margin-right: 5%;
     padding: 5%;
@@ -212,13 +206,12 @@ section h2 {
 
 .servicos {
     display: inline-block;
-    margin-top:5%;
+    margin-top: 5%;
 }
 
 .card {
-    display: inline-block;
-    float:left;
-    height:auto;
+    float: left;
+    height: auto;
     width: 31.1%;
     padding: 20px;
     margin: 1%;
@@ -251,6 +244,7 @@ section h2 {
     padding-top: 0%;
     width: 880px;
     margin-top: 0%;
+    padding-bottom: 0%;
 }
 
 .abtus strong {
@@ -277,59 +271,6 @@ section h2 {
     color: #0536a8;
 }
 
-
-.for {
-    display: flex;
-    justify-content: center;
-}
-
-form {
-    height: 690px;
-    width: 600px;
-    background: #2c2c2c;
-    display: flex;
-    flex-flow: column wrap;
-    padding: 55px;
-    border-radius: 10px;
-    border: 3px solid #0536a8;
-}
-
-
-form input {
-    width: 100%;
-    height: 45px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 10px;
-    text-align: center;
-    align-items: center;
-    border: 2px solid #0f0f0f;
-    border-radius: 5px;
-}
-
-textarea {
-    width: 90%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 10px;
-}
-
-button {
-    margin-top: 30px;
-    font-size: 20px;
-    background: #000000;
-    color: white;
-    padding: 15px 10px;
-    border: 1.3px solid #0536a8;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    color: #000000;
-    background: #ffffff;
-}
-
 .ctct {
     display: flex;
     justify-content: center;
@@ -354,7 +295,9 @@ button:hover {
 }
 
 .navigation {
+    /*position: absolute;*/
     bottom: 120px;
+    /*top: 865%;*/
     display: flex;
     justify-content: center;
     align-items: center;
