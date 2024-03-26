@@ -326,37 +326,6 @@ section h2 {
     background-color: aliceblue;
 }
 
-.slides input {
-    display: none;
-}
-
-.slides {
-    display: flex;
-    width: 400%;
-    height: 100%;
-}
-
-.slide {
-    width: 25%;
-    transition: .6s;
-}
-
-#slide1:checked~.s1 {
-    margin-left: 0;
-}
-
-#slide2:checked~.s1 {
-    margin-left: -25%;
-}
-
-#slide3:checked~.s1 {
-    margin-left: -50%;
-}
-
-#slide4:checked~.s1 {
-    margin-left: -75%;
-}
-
 .final {
     border: 3px solid #0536a8;
     border-bottom-right-radius: 8px;
