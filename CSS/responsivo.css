@@ -1,4 +1,3 @@
-/*Dispostivos Médios (Tablets deitados, 768px para cima) */
 @media only screen and (max-width: 1010px) {
     .navbar {
         position: relative;
@@ -69,5 +68,174 @@
 
     footer {
         height: 500px;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    body {
+        height: 100%;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .header {
+        padding-top: 30px;
+    }
+
+    section {
+        position: relative;
+        padding-top: 40px;
+    }
+
+    #img03 {
+        display: none;
+    }
+
+    #img04 {
+        display: flex;
+        margin-top: 30px;
+        height: 400px;
+        width: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 860px) {
+    body {
+        height: 100%;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .header {
+        padding-top: 30px;
+    }
+
+    #h03 h1 {
+        display: none;
+    }
+
+    #h04 h1 {
+        display: none;
+    }
+
+    #servicos {
+        display: none;
+    }
+
+    #musa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bot {
+        display: flex;
+        width: 340px;
+    }
+
+    .headline {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .headline p {
+        text-align: center;
+    }
+
+    #h02 {
+        display: none;
+    }
+
+
+    #h03 {
+        display: none;
+    }
+
+    #h04 {
+        display: none;
+    }
+
+    #img01 {
+        display: none;
+    }
+
+    #img02 {
+        display: none;
+    }
+
+    #img03 {
+        display: none;
+    }
+
+    #img04 {
+        display: none;
+    }
+
+    .card p {
+        display: none;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .bot {
+        position: relative;
+        margin-top: -250px;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .final {
+        display: none;
+    }
+
+    ctct {
+        display: none;
+        height: 0;
+    }
+
+    .content {
+        display: none;
+        height: 0;
+    }
+
+    .insd {
+        display: none;
+        height: 0;
+    }
+
+    footer {
+        position: relative;
+        margin-top: -400px;
     }
 }
